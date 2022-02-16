@@ -1,0 +1,24 @@
+.navbar #logo {
+    width: 90px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+body {background-color: #141414;}
+
+.perfiles .pregunta-perfiles{
+    background-color: #141414;
+    width: 100%;
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.perfiles .escoger-perfil{
+    margin: 2em 0;
+    
+}
+
