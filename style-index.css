@@ -1,13 +1,17 @@
 .navbar #logo {
-    width: 90px;
-    height: 25px;
+    height: 2.5vw;
+    width: 8vw;
+    max-height: 25px;
+    max-width: 90px;
+    min-height: 20px;
+    min-width: 80px;
     margin-top: 15px;
     margin-left: 50px;
 }
 
 body {background-color: #141414;}
 
-.perfiles .pregunta-perfiles{
+.container-perfiles .pregunta-perfiles{
     background-color: #141414;
     width: 100%;
     color: #fff;
@@ -17,8 +21,28 @@ body {background-color: #141414;}
     text-align: center;
 }
 
-.perfiles .escoger-perfil{
+.container-perfiles .lista-perfiles{
     margin: 2em 0;
-    
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+}
+
+ .container-perfiles .icono-perfil {
+    height: 10vw;
+    width: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    border-radius: 4px;
+    border: none;
 }
 
