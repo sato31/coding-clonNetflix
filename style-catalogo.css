@@ -1,0 +1,82 @@
+body, html {
+    background: #141414;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 1.2;
+    font-size: .75vw;
+}
+
+.contenedor-barra{
+    padding: 0 60px;
+    top: 0px; 
+    position: fixed; 
+    background: #141414;
+    display: flex;
+}
+
+.contenedor-izq{
+    height: 68px;
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contenedor-derecho{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.logo-Netflix{
+    height: 2.5vw;
+    width: 8vw;
+    max-height: 25px;
+    max-width: 90px;
+    min-height: 18px;
+    min-width: 70px;
+    margin-top: 0px;
+    margin-right: 25px;
+}
+
+.botones-izq{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.botones-izq .boton-barra-izq a{
+    margin-left: 20px;
+    font-size: 14px;
+    position: relative;
+    color: #e5e5e5;
+    text-decoration: none
+}
+
+.boton-barra-izq .activo-actual{
+    color: #fff;
+    font-weight: 700;
+}
+
+.boton-derecho{
+    width: 20px;
+    height: 20px;
+}
+
+.contenedor-derecho .boton-barra-der {
+    font-size: 14px;
+    position: relative;
+    color: #e5e5e5;
+    text-decoration: none
+}
