@@ -25,6 +25,11 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+    height: 100vh;
+}
+
+.container-perfiles{ 
+
 }
 
 .container-perfiles .pregunta-perfiles{
@@ -44,6 +49,7 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    align-items:center ;
 }
 
 li{
@@ -107,4 +113,9 @@ li{
 
 .container-perfiles li a:hover .nombre-perfil{
     color: #e5e5e5;
+}
+
+#icono-addPerfil:hover{
+    background-color: #e5e5e5 ;
+
 }
