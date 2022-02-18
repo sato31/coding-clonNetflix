@@ -29,7 +29,7 @@ body {
 }
 
 .container-perfiles{ 
-
+    background-color: #141414;
 }
 
 .container-perfiles .pregunta-perfiles{
@@ -116,6 +116,5 @@ li{
 }
 
 #icono-addPerfil:hover{
-    background-color: #e5e5e5 ;
-
+    background-color: #e5e5e5;
 }

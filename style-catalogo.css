@@ -6,6 +6,7 @@ body, html {
     font-size: .75vw;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .contenedor-barra{
@@ -14,6 +15,8 @@ body, html {
     top: 0;
     background: #141414;
     display: flex;
+    width: auto;
+    min-width: 100%;
 }
 
 .contenedor-izq{
@@ -71,16 +74,18 @@ ul{
     font-weight: 700;
 }
 
-.boton-derecho{
-    width: 20px;
-    height: 20px;
-}
-
 .contenedor-derecho .boton-barra-der {
     font-size: 14px;
     position: relative;
     color: #e5e5e5;
-    text-decoration: none
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.boton-derecho{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
 }
 
 .categoria{
@@ -96,7 +101,7 @@ ul{
     font-size: 20px;
     color: #e5e5e5;
     font-weight: 700;
-    margin: 60px 4% 20px 3.3%;
+    margin: 50px 4% 20px 3.3%;
     text-decoration: none;
     display: inline-block;
 }
@@ -120,4 +125,13 @@ ul{
     display: flex;
     overflow-y: auto;
     margin-left: 3.3%;
+}
+
+.lista-peliculas a:hover{
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15)   
+}
+
+.boton-barra-izq a:hover, .contenedor-derecho a:hover{
+    color: #fff;
 }
