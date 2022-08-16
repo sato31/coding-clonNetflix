@@ -1,5 +1,7 @@
 # CLON DE NETFLIX (HTML Y CSS)
 
+[Ver este proyecto](https://sato31.github.io/coding-clonNetflix/)
+
 Se realizó un clon de Netflix utilizando unicamente HTML y CSS.
 
 Este proyecto se enfocó en realizar el clon de la página donde se escoge el perfil del usuario y el catálogo de películas.
